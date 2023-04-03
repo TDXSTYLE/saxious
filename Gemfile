@@ -34,6 +34,8 @@ gem 'turbolinks', '~> 5'
 
 gem 'bootstrap', '~> 5.2', '>= 5.2.3'
 
+gem 'friendly_id', '~> 5.5'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
