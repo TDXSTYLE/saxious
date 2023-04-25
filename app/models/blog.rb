@@ -6,4 +6,11 @@ class Blog < ApplicationRecord
     validates_presence_of :title, :body
 
     belongs_to :topic
+
+
+    has_many :comments, dependent: :destroy
+
+    def self.special_blogs
+    limit(2)
+  end
 end

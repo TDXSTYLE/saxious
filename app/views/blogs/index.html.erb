@@ -1,31 +1,8 @@
-<p id="notice"><%= notice %></p>
+<div class="col-sm-8 blog-main">
 
-<h1>Blogs</h1>
+  
+   <%= render @blogs %>
+    
+   <%= paginate @blogs %>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Body</th>
-      <th colspan="4"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @blogs.each do |blog| %>
-      <tr>
-        <td><%= blog.title.upcase %></td>
-        <td><%= blog.body %></td>
-         <td><%= link_to blog.status, toggle_status_blog_path(blog) %></td>
-        <td><%= link_to 'Show', blog %></td>
-        <td><%= link_to 'Edit', edit_blog_path(blog) %></td>
-        <td><%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Blog', new_blog_path %>
-
+</div><!-- /.blog-main -->

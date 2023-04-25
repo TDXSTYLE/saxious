@@ -36,6 +36,33 @@ gem 'bootstrap', '~> 5.2', '>= 5.2.3'
 
 gem 'friendly_id', '~> 5.5'
 
+gem 'devise', '~> 4.9', '>= 4.9.2'
+
+gem 'petergate', '~> 3.0'
+
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.8'
+
+
+gem 'kaminari', '~> 1.2', '>= 1.2.2'
+
+
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
+
+gem 'dotenv-rails', '~> 2.8', '>= 2.8.1'
+
+
+gem 'cocoon', '~> 1.2', '>= 1.2.15'
+
+gem 'gritter', '~> 1.2'
+
+gem 'twitter', '~> 7.0'
+
+gem 'redis', '~> 4.2', '>= 4.2.1'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 

@@ -1,0 +1,17 @@
+<% @portfolio_items.each do |portfolio_item| %>
+
+
+<div class="col-md-4">
+
+
+<div class="card" data-id="<%= portfolio_item.id %>">
+<%= image_tag(portfolio_item.thumb_image.url, width: '100%') %>
+
+    <%= link_to portfolio_item.subtitle, portfolio_show_path(portfolio_item), class: 'portfoliolink' %>
+
+</div>
+</div>
+
+
+<% end %>
+

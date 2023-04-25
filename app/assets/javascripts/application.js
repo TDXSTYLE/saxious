@@ -14,7 +14,11 @@
 //= require jquery3
 //= require cable
 //= require popper
+//= require jquery-ui
+//= require cocoon
+//= require gritter
+//= require cable
+//= require html.sortable
 //= require bootstrap-sprockets
-//= require activestorage
 //= require turbolinks
 //= require_tree .
